@@ -1,4 +1,5 @@
 @import url(font-awesome.min.css);
+@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400";
 
 /*
 	Hyperspace by HTML5 UP
@@ -115,10 +116,10 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.55);
-		font-family: Arial, Helvetica, sans-serif;
+		color: rgba(255, 255, 255, 0.65);
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16.5pt;
-		font-weight: normal;
+		font-weight: lighter;
 		line-height: 1.75;
 	}
 
@@ -216,6 +217,13 @@ input, select, textarea {
 
 	h2 {
 		font-size: 1.75em;
+	}
+
+	.section_title {
+		font-size: 1.75em;
+		text-transform: uppercase; 
+		font-weight: lighter; 
+		letter-spacing: 0.25em;
 	}
 
 	h3 {
@@ -2539,11 +2547,27 @@ input, select, textarea {
 				}
 
 				.wrapper.style4 .icon.major:before {
-					color: #d9c4de;
+					color: #be4a56;
 				}
 
 				.wrapper.style4-alt .icon.major:before {
-					color: #c3b0c7;
+					color: #a6414b;
+				}
+
+				.wrapper.style5 .icon.major:before {
+					color: #ce4993;
+				}
+
+				.wrapper.style5-alt .icon.major:before {
+					color: #b94184;
+				}
+
+				.wrapper.style6 .icon.major:before {
+					color: linear-gradient(55deg, #4E75B9 30%, #5CBF98 90%);
+				}
+
+				.wrapper.style6-alt .icon.major:before {
+					color: linear-gradient(55deg, #4E75B9 30%, #5CBF98 90%);
 				}
 
 /* Image */
@@ -3258,11 +3282,27 @@ input, select, textarea {
 		}
 
 		.wrapper.style4 {
-			background-color: #d9c4de;
+			background-color: #be4a56;
 		}
 
 		.wrapper.style4-alt {
-			background-color: #c3b0c7;
+			background-color: #a6414b;
+		}
+
+		.wrapper.style5 {
+			background-color: #ce4993;
+		}
+
+		.wrapper.style5-alt {
+			background-color: #b94184;
+		}
+
+		.wrapper.style6 {
+			background-color: linear-gradient(55deg, #4E75B9 30%, #5CBF98 90%);
+		}
+
+		.wrapper.style6-alt {
+			background-color: linear-gradient(55deg, #4E75B9 30%, #5CBF98 90%);
 		}
 
 		.wrapper.fullscreen {
@@ -3738,9 +3778,9 @@ input, select, textarea {
 			border: 0;
 			color: rgba(255, 255, 255, 0.35);
 			display: block;
-			font-size: 0.6em;
+			font-size: 0.65em;
 			font-weight: bold;
-			letter-spacing: 0.25em;
+			letter-spacing: 0.35em;
 			line-height: 1.75;
 			outline: 0;
 			padding: 1.35em 0;
